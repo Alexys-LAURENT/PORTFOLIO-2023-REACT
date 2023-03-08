@@ -1,0 +1,191 @@
+/* BASE */
+.A-propos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+h3,
+h4 {
+  margin: 0 !important;
+}
+
+/* BTN ANIME */
+
+.btn-anim-container {
+  transition: all 0.5s ease-out;
+}
+.btn-anim {
+  width: 145px;
+  height: 46px;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: -1;
+  top: -11px;
+  left: -4px;
+  display: none;
+}
+.btn-anim::before {
+  content: "";
+  background-image: conic-gradient(#ffffff 180deg, transparent 80deg);
+  width: 200%;
+  height: 400%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+}
+.btn-anim::after {
+  content: "";
+  width: 125px;
+  height: 36px;
+  background: #101010;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  letter-spacing: 5px;
+  box-shadow: inset 20px 20px 20px #0000008c;
+}
+.greenLink:hover .btn-anim {
+  display: block;
+}
+.btn-anim-container:hover .btn-anim {
+  display: flex;
+}
+.btn-anim-container:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+}
+.btn-anim-container:hover .greenLink {
+  background-color: #256949;
+}
+
+/* DESCRIPTION */
+.description-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 200px;
+}
+
+.description-text {
+  max-width: 55%;
+}
+
+.description-text p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* COMPETENCES */
+
+.competences-container {
+  margin-top: 150px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+h3 {
+  margin-bottom: 80px !important;
+  font-size: 36px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.skill {
+  width: 11%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.skill h4 {
+  font-size: 20px;
+}
+
+/* ANIMATION */
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+
+  .description-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .description-text {
+    max-width: 80%;
+  }
+
+  .description-container a {
+    margin-top: 50px;
+  }
+
+  .competences-container {
+    margin-top: 50px;
+  }
+
+  .skill h4 {
+    font-size: 14px;
+  }
+
+  .skill {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  h1 {
+    font-size: 2vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+}
