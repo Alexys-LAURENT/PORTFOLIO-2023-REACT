@@ -19,6 +19,8 @@ function Navbar() {
     border-right: 3px solid;
     font-family: monospace;
     font-size: 1.5em;
+    position: relative;
+    top: -3px;
 
     @keyframes typing {
       from {
@@ -42,7 +44,7 @@ function Navbar() {
   `
 
   return (
-    <nav className="navbar navbar-expand-lg bg-transparent mt-2">
+    <nav className="navbar bg-transparent navbar-expand-lg pb-2" id="Navbar">
       <div className="container-fluid">
         <TextWritting size={textSize}>
           {"//"} {pageTitle}
@@ -51,7 +53,7 @@ function Navbar() {
           <span className="navbar-toggler-icon aaa"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto text-center">
             <li className="nav-item">
               <Link
                 to="/"

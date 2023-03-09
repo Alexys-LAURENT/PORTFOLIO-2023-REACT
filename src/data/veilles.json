@@ -1,0 +1,136 @@
+[
+  {
+    "id": "z5sd2",
+    "categorie": "informatique",
+    "titreMin": "Github Copilot",
+    "titre": "GitHub lance son outil Copilot pour aider les développeurs",
+    "contents": [
+      {
+        "type": "texte",
+        "texte": "Github Copilot est une intelligence artificielle créée par GitHub et OpenAI dans le but d'aider les développeurs. Elle est capable de générer du code à partir d'un commentaire mais aussi de faire une prédiction de ce que vous voulez potentiellement écrire grace au modèle de Langages GPT3 développé par OpenAI."
+      },
+      {
+        "type": "texte",
+        "texte": "Cette AI permet donc la prédiction dans une douzaine de Langages et s'installe sur certains IDE dont Visual Studio Code. GitHub Copilot est disponible par abonnement mensuel (9.99$) ou annuel (99$) mais dispose aussi d'une offre gratuite pour les étudiants Présenté le 29 juin 2021, GitHub Copilot est maintenant disponible pour les développeurs depuis le 20 juillet 2021. Afin d'apprendre à coder Github Copilot s'est entrainé sur plus de 1 milliard de lignes de code à travers tous les repositorys github disponibles."
+      },
+      {
+        "type": "texte",
+        "texte": "Afin de valider la proposition de github il suffit de cliquer sur la touche TAB et de laisser github copilot faire son travail. Attention : Github Copilot est encore en phase de test et peut donc proposer des erreurs de syntaxe ou des erreurs de logique"
+      },
+      {
+        "type": "img",
+        "src": "ImgGithubVeille1.png"
+      },
+      {
+        "type": "img",
+        "src": "ImgGithubVeille2.png"
+      }
+    ],
+    "sources": [
+      {
+        "titreSource": "Github Copilot",
+        "urlSource": "https://github.com/features/copilot"
+      },
+      {
+        "titreSource": "Wikipedia GPT3",
+        "urlSource": "https://fr.wikipedia.org/wiki/GPT-3"
+      },
+      {
+        "titreSource": "Wikipedia Github Copilot",
+        "urlSource": "https://en.wikipedia.org/wiki/GitHub_Copilot"
+      }
+    ]
+  },
+  {
+    "id": "12sq48a",
+    "categorie": "informatique",
+    "titreMin": "RTX serie 40XX",
+    "titre": "Nvidia sort enfin ses cartes graphiques 40xx",
+    "contents": [
+      {
+        "type": "texte",
+        "texte": "Nvidia à sortie pour le moment deux modèles de cartes graphique de la série 40. La nvidia RTX 4090 (1.949 €) et 4080 (1.469 €). La RTX 4090, sortie le 12 octobre 2022, est équipée de 24 Go de mémoire G6X contre 16 pour la 4080 sortie le 16 novembre 2022. Bien que toutes deux plus performantes d'un point de vue matériel que la série précédente des 30xx ce n'est pas ce qui fait la réelle nouveauté de ces cartes."
+      },
+      {
+        "type": "texte",
+        "texte": "En effet elles disposent de la nouvelle technologie de Nvidia, le Deep Learning Super Sampling (DLSS) version 3 qui permet de faire tourner des jeux en 4K avec un taux de rafraichissement de 120Hz."
+      },
+      {
+        "type": "img",
+        "src": "ImgRtxVeille.jpg"
+      },
+      {
+        "type": "texte",
+        "texte": "Mais qu'est ce le DLSS et sa version 3 ?"
+      },
+      {
+        "type": "texte",
+        "texte": "Le DLSS est une technologoe d'intelligence artificielle permettant de recréer les images. Ce processus permet d'alléger la puissance exercée par la carte graphique pour un rendu tout autant voir meilleur."
+      },
+      {
+        "type": "texte",
+        "texte": "Grâce au DLSS votre carte graphique peut être utilisée comme si elle fournissait une résolution de 1080p par exemple alors que cela sera du 4k afficher sur votre écran. Tout cela car le DLSS arrive à créer des pixels pour agrandir l'image en temps réel. Ce système permet donc à la carte de se reposée et de se concentré surtout sur le nom de FPS (images par seconde) pour fournir l'expérience la plus fluide possible. Le DLSS 3 est donc la version améliorée de cette technologie. Malheureusement elle n'est compatible que sur les séries 40xx de Nvidia alors que le DLSS 2.0 lui l'était sur les 20xx et 30xx."
+      }
+    ],
+    "sources": [
+      {
+        "titreSource": "Nvidia RTX",
+        "urlSource": "https://www.nvidia.com/fr-fr/geforce/graphics-cards/40-series/"
+      },
+      {
+        "titreSource": "Jeuxvidéo.com",
+        "urlSource": "https://www.jeuxvideo.com/news/1679385/rtx-4080-et-rtx-4090-nvidia-m-a-rendu-fou-les-joueurs-choques-par-les-performances-du-dlss-3.htm"
+      },
+      {
+        "titreSource": "Pocket-lint",
+        "urlSource": "https://www.pocket-lint.com/fr-fr/ordinateurs/actualites/nvidia/155961-quest-ce-que-lapprentissage-en-profondeur-des-parametres-graphiques-de-super-echantillonnage-dlss-ai"
+      }
+    ]
+  },
+  {
+    "id": "156zs12",
+    "categorie": "juridique",
+    "titreMin": "Résolution d'un contrat de conception de site internet",
+    "titre": "Résolution d’un contrat de conception de site internet pour retard dans la livraison et dysfonctionnements",
+    "contents": [
+      {
+        "type": "texte",
+        "texte": "Type : Arrêt"
+      },
+      {
+        "type": "texte",
+        "texte": "Date : 29 novembre 2016"
+      },
+      {
+        "type": "texte",
+        "texte": "Acteurs : non précisés"
+      },
+      {
+        "type": "texte",
+        "texte": "Juridiction : Cour d’appel de Grenoble"
+      },
+      {
+        "type": "texte",
+        "texte": "Faits : Un contrat de conception de site internet a été passé entre un prestataire et un consommateur."
+      },
+      {
+        "type": "texte",
+        "texte": "Décision : La conception du site faisait face à un retard anormal et des dysfonctionnements persistants. En effet, le devis accepté par le client ne mentionnait aucune date de livraison cependant, cela impliquait de façon implicite un délai raisonnable. Après une année suivant l’acceptation dudit devis sans réception du livrable, le contrat a été résolu, aux torts exclusifs du prestataire."
+      },
+      {
+        "type": "texte",
+        "texte": "Sanctions : Le prestataire a été condamné à payer 2000 euros de dommages et intérêts à son client."
+      },
+      {
+        "type": "texte",
+        "texte": "Arrêt non publié."
+      }
+    ],
+    "sources": [
+      {
+        "titreSource": "Feral.law",
+        "urlSource": "https://feral.law/archives/resolution-dun-contrat-de-conception-de-site-internet-pour-retard-dans-la-livraison-et-dysfonctionnements/"
+      }
+    ]
+  }
+]

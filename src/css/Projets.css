@@ -1,0 +1,74 @@
+.projets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* BTN ANIME */
+
+.btn-anim-container-projets {
+  transition: all 0.5s ease-out;
+}
+.btn-anim-projets {
+  width: 137px;
+  height: 46px;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: -1;
+  top: -11px;
+  left: -4px;
+  display: none;
+}
+.btn-anim-projets::before {
+  content: "";
+  background-image: conic-gradient(#ffffff 180deg, transparent 80deg);
+  width: 200%;
+  height: 400%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+}
+.btn-anim-projets::after {
+  content: "";
+  width: 117px;
+  height: 36px;
+  background: #101010;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  letter-spacing: 5px;
+  box-shadow: inset 20px 20px 20px #0000008c;
+}
+.greenLink:hover .btn-anim-projets {
+  display: block;
+}
+.btn-anim-container-projets:hover .btn-anim-projets {
+  display: flex;
+}
+.btn-anim-container-projets:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+}
+.btn-anim-container-projets:hover .greenLink {
+  background-color: #256949;
+}
+
+@media screen and (max-width: 768px) {
+  .ProjetsWrapper {
+    grid-template-columns: 1fr !important;
+    grid-column-gap: 40px;
+    grid-row-gap: 25px;
+  }
+
+  .Card {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+}

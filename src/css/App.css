@@ -8,10 +8,36 @@ body {
   overflow-x: hidden;
 }
 
+/* customize scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 5, 10, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2f2f2f;
+  border-radius: 10px;
+}
+
 * {
   font-family: "Inter", sans-serif !important;
   font-weight: bold !important;
   /* border: 1px solid red; */
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 1000 !important;
+  transition: all 0.5s linear !important;
+}
+
+.navbar-background {
+  background-color: #00050a !important;
 }
 
 nav ul {
@@ -29,6 +55,17 @@ nav ul {
 .bubble-right {
   transition: all 2s linear;
 }
+
+/**/
+.choice-active {
+  background-color: #26724d !important;
+}
+
+.choice-active p {
+  color: white !important;
+}
+
+/*MEDIA QUERY*/
 
 @media screen and (max-width: 768px) {
   .bubble-left,

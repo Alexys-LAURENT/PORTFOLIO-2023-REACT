@@ -1,0 +1,22 @@
+.veille {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .VeillesWrapper {
+    grid-template-columns: 1fr !important;
+    grid-column-gap: 40px;
+    grid-row-gap: 25px;
+  }
+
+  .Card {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+}

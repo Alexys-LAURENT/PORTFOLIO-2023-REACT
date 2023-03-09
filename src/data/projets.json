@@ -1,0 +1,208 @@
+[
+  {
+    "id": "jkoqsp",
+    "categorie": "scolaire",
+    "titre": "PPE Auto-école",
+    "description": "Avec mon groupe scolaire composé de Louis Lamouche, Valentio Pinto et moi-même nous sommes actuellement en train de travailler sur un site d'auto-école afin de le présenter le jour de notre épreuve de BTS. Ce projet à pour but de réaliser la vitrine d'une auto-école ainsi qu'une interface utilisateur pour ceux ayant un forfait que l'auto-école. Grâce à cette interface l'utilisateur pourra consulter son forfait, ses heures effectués, son agenda avec ses prochaines heures de conduite, la possibilité de demander ou annuler des heures et avoir accès à un mini code de la route afin de s'entrainer.    Le site disposera aussi d'une interface moniteur ou il pourra accepter ou non les demandes de ses élèves ainsi qu'accéder à son agenda. Pour finir il y aura une interface Admin permettant d'insérer ou supprimer un élève et un moniteur",
+    "stacks": ["Html", "Css", "Javascript", "Php", "Mysql"],
+    "Github": "https://github.com/Alexys-LAURENT/PPE-Auto-Ecole",
+    "technos": [
+      {
+        "titreTechno": "IDE :",
+        "nomTechno": ["Visual Studio Code"]
+      },
+      {
+        "titreTechno": "Langages :",
+        "nomTechno": ["Html", "Css", "Php", "Mysql"]
+      },
+      {
+        "titreTechno": "Architecture :",
+        "nomTechno": ["Modèle MVC"]
+      },
+      {
+        "titreTechno": "Organisation :",
+        "nomTechno": ["Trello", "Gantt"]
+      },
+      {
+        "titreTechno": "Maquette :",
+        "nomTechno": ["Figma"]
+      },
+      {
+        "titreTechno": "Travail collaboratif :",
+        "nomTechno": ["Git"]
+      }
+    ],
+    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"]
+  },
+  {
+    "id": "rfeas23",
+    "categorie": "personnel",
+    "titre": "Bank Dashboard",
+    "description": "'Bank Dashboard' est le nom de ma première application web réalisé avec Node Js et certaines librairies. Elle permet de gérer ses revenus et ses dépenses ainsi qu'avoir certaines statistiques sur son mois comme par exemple le montant total de dépense, revenus ou récurrence du mois. Elle dispose aussi d'une courbe montrant l'évolution de son solde sur les dernières transactions ainsi qu'un camenbert indiquant dans quelle catégorie nous avons effectué le plus de dépenses",
+    "stacks": ["Node js", "Html", "Css", "mysql", "Charts js"],
+    "Github": "https://github.com/Alexys-LAURENT/Bank_dashboard",
+    "technos": [
+      {
+        "titreTechno": "IDE :",
+        "nomTechno": ["Visual Studio Code"]
+      },
+      {
+        "titreTechno": "Langages :",
+        "nomTechno": ["Html", "Css", "Javascript", "Mysql"]
+      },
+      {
+        "titreTechno": "Plateforme logiciel :",
+        "nomTechno": ["Node js"]
+      },
+      {
+        "titreTechno": "Librairies :",
+        "nomTechno": ["Express", "Express-my-connection", "Express-flash", "Passport", "Ejs", "Charts js", "Bcrypt"]
+      },
+      {
+        "titreTechno": "Maquette :",
+        "nomTechno": ["Figma"]
+      }
+    ],
+    "competencesAcquises": ["Première utilisation de Node JS", "Installation de différentes librairies", "Connexion à une base de données MYSQL avec JAVASCRIPT grace à Express My-Connection", "Afficher les données récupérer depuis la BDD avec EJS", "Afficher des messages flash avec Express-Flash"]
+  },
+  {
+    "id": "dqsdqsd",
+    "categorie": "personnel",
+    "titre": "Mon serveur Apache",
+    "description": "J'ai réalisé mon propre serveur web à l'aide d'un deuxième ordinateur installé chez moi. Ce PC est sous Ubuntu 20.04 avec docker. Il y a un premier conteneur proxy avec apache et un autre dans un réseau privé avec LAMP et node installé dessus. Pour rendre ce serveur web accessible par tout le monde sur internet j'ai dû faire la demande auprès de mon fournisseur internet d'une adresse ip fixe qui m'a ensuite permis de créer des redirections de ports depuis mon adresse ip vers mon serveur web.",
+    "stacks": ["Apache", "Docker", "Php", "mysql", "Node js", "Npm"],
+    "technos": [
+      {
+        "titreTechno": "LAMP :",
+        "nomTechno": ["Linux (ubuntu 20.04)", "Apache", "Mysql", "Php"]
+      },
+      {
+        "titreTechno": "Conteneurs :",
+        "nomTechno": ["Docker"]
+      },
+      {
+        "titreTechno": "Protocol :",
+        "nomTechno": ["Http", "Https", "Ssh"]
+      },
+      {
+        "titreTechno": "Pour la connexion Ssh :",
+        "nomTechno": ["Putty"]
+      },
+      {
+        "titreTechno": "Sécurité :",
+        "nomTechno": ["Iptables", "Fail2ban", "clés ssh", "Apache proxy & réseau privé"]
+      },
+      {
+        "titreTechno": "Réseau :",
+        "nomTechno": ["Redirection de ports"]
+      }
+    ],
+    "competencesAcquises": ["Meilleure compréhension et utilisation du terminal sous Ubuntu", "Installation d'un nom de domaine sous apache avec certificat SSL (https)", "Meilleure compréhension des ports en réseau", "Mise en place de 'Virtual Host' dans Apache pour avoir plusieurs sites sur un serveur web", "Installation d'un firewall avec Iptables", "Connexion à distance par clés avec le protocole SSH", "Mise en place de Fail To Ban qui ban une adresse ip temporairement après un certain nombre d'échecs de connexion", "Première utilisation de Docker"]
+  },
+  {
+    "id": "4e5f6z4",
+    "categorie": "scolaire",
+    "titre": "Tp Garage",
+    "description": "Ce projet avait pour but de créer une plateforme afin de gérer les clients d'un garage ainsi que les interventions. Il dispose d'une interface client où l'on peut apercevoir ses véhicules enregistrés ainsi qu'une interface admin qui nous permet d'insérer un nouveau client, son véhicule, un technicien et de créer une intervention qui les relie tous.",
+    "stacks": ["Html", "Css", "Javascript", "Php", "Mysql"],
+    "Github": "https://github.com/Louis-2204/Garage2023",
+    "technos": [
+      {
+        "titreTechno": "IDE :",
+        "nomTechno": ["Visual Studio Code"]
+      },
+      {
+        "titreTechno": "Langages :",
+        "nomTechno": ["Html", "Css", "Php", "Mysql"]
+      },
+      {
+        "titreTechno": "Architecture :",
+        "nomTechno": ["Modèle MVC"]
+      },
+      {
+        "titreTechno": "Organisation :",
+        "nomTechno": ["Trello", "Gantt"]
+      },
+      {
+        "titreTechno": "Maquette :",
+        "nomTechno": ["Figma"]
+      }
+    ],
+    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"]
+  },
+
+  {
+    "id": "fez45q",
+    "categorie": "entreprise",
+    "titre": "Tchilee.fr v3",
+    "description": "Durant mon 3ème mois en alternance au sein de l'association CD2RI j'ai eu l'occasion de réaliser la v3 de leur Site Tchilee.fr qui est une agence de voyages en ligne",
+    "stacks": ["Wix", "Javascript"],
+    "technos": [
+      {
+        "titreTechno": "CMS :",
+        "nomTechno": ["Wix (Editor X)"]
+      },
+      {
+        "titreTechno": "Langage :",
+        "nomTechno": ["Javascript"]
+      },
+      {
+        "titreTechno": "Organisation :",
+        "nomTechno": ["Jira"]
+      },
+      {
+        "titreTechno": "Maquette :",
+        "nomTechno": ["Figma"]
+      }
+    ],
+    "competencesAcquises": ["Planifier ses missions et les documenter avec jira", "Utilisation du cms wix version EditorX", "Utilisation du JQUERY pour des fonctions sur l'éditeur de code 'Velo' propre a Wix", "Réaliser une maquette détaillée d'un site d'agence de voyages"]
+  },
+  {
+    "id": "dasq45",
+    "categorie": "entreprise",
+    "titre": "SkillTouch",
+    "description": "Durant mon alternance au sein de CD2RI je travaille sur un prototype d'application de recherche d'emploi avec une utilisation type Tinder. Vous pouvez vous inscrire soit en tant qu'utilisateur soit en tant qu'employeur. Vous définissez ensuite votre recherche (stage, alternance, CDD, CDI) ainsi qu'une liste de savoir faire et savoir être vous correspondant ou correspondant à l'offre d'emploi que vous déposer en tant qu'employeur. Des profils défilleront ensuite basé sur vos critères de recherche et vous avez la possibilité de passer ou de liker le profil. Si un like a été générer des deux cêtés cela crée un match et l'utilisateur ainsi que l'employeur ont la possibilité de discuter pour faire connaissance et potentiellement définir un entretien.",
+    "stacks": ["Bubble.io"],
+    "technos": [
+      {
+        "titreTechno": "CMS :",
+        "nomTechno": ["Bubble"]
+      },
+      {
+        "titreTechno": "Organisation :",
+        "nomTechno": ["Jira"]
+      }
+    ],
+    "competencesAcquises": ["Utilisation de Bubble pour créer des applications web", "Définir ses missions et les documenter avec Jira et OneNote"]
+  },
+  {
+    "id": "dsq123",
+    "categorie": "scolaire",
+    "titre": "Tp Scolarité",
+    "description": "Ce projet avait pour but de créer une plateforme afin de gérer les élèves d'un établissement ainsi que les classes. Il dispose d'une interface client où l'on peut apercevoir la liste des classes, des matières et des élèves enregistrés ainsi qu'une interface admin qui nous permet d'insérer un nouvel élève, une classe, une matière et de les relier entre eux",
+    "stacks": ["Html", "Css", "Php", "Mysql"],
+    "technos": [
+      {
+        "titreTechno": "IDE :",
+        "nomTechno": ["Visual Studio Code"]
+      },
+      {
+        "titreTechno": "Languages :",
+        "nomTechno": ["Html", "Css", "Php", "Mysql"]
+      },
+      {
+        "titreTechno": "Architecture :",
+        "nomTechno": ["Modèle MVC"]
+      },
+      {
+        "titreTechno": "Organisation :",
+        "nomTechno": ["Trello", "Gantt"]
+      },
+      {
+        "titreTechno": "Maquette :",
+        "nomTechno": ["Figma"]
+      }
+    ],
+    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe)", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"]
+  }
+]

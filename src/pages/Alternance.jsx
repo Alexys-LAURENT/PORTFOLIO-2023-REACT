@@ -34,7 +34,7 @@ const DivImg = styled.div`
 
 function Alternance() {
   return (
-    <div className="Alternance">
+    <div data-aos="fade-up" data-aos-duration="2000" className="Alternance">
       <Header>
         <h2>Mon alternance actuelle</h2>
         <div className="btn-anim-container-alternance mt-5">
@@ -44,14 +44,14 @@ function Alternance() {
           </Button>
         </div>
       </Header>
-      <div className="cd2ri-container" id="cd2ri-container">
+      <div data-aos="fade-down" data-aos-duration="1500" className="cd2ri-container" id="cd2ri-container">
         <DivImg className="cd2ri-image" img={Cd2riImg}></DivImg>
         <div className="cd2ri-text-container">
           <p>Durant cette deuxième année en BTS SIO j’ai la chance de pouvoir effectuer une alternance au sein de l’association CD2RI.</p>
           <p>CD2RI propose à ses adhérents de rejoindre un réseau de contacts professionnels répartis en France et à l'étranger. Leurs services ont été pensés pour aider les membres de la communauté à atteindre leurs objectifs de croissance économique et/ou de se réaliser professionnellement. CD2RI propose de nombreux services allant de l’aide pour les jeunes ou personnes en difficultés afin de trouver un stage ou un emploi mais aussi la création de site internet et la mise en relation avec leur raiseau interne.</p>
         </div>
       </div>
-      <div className="tchilee-container">
+      <div data-aos="fade-down" data-aos-duration="1700" className="tchilee-container">
         <DivImg className="tchilee-image" img={TchileeWhiteImg}></DivImg>
         <div className="tchilee-text-container">
           <p>CD2RI possède aussi une marque nommée Tchilee qui est une agence de voyages en ligne</p>
