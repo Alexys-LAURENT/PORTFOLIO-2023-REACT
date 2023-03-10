@@ -12,7 +12,7 @@ function Navbar() {
 
   const TextWritting = styled.div`
     width: ${(props) => props.size}ch;
-    height: 1.7ch;
+    height: 1.9ch;
     animation: typing 6s steps(20) infinite alternate, blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -21,6 +21,7 @@ function Navbar() {
     font-size: 1.5em;
     position: relative;
     top: -3px;
+    // background-color: orange;
 
     @keyframes typing {
       from {

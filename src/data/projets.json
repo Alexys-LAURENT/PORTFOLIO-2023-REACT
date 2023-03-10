@@ -32,7 +32,45 @@
         "nomTechno": ["Git"]
       }
     ],
-    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"]
+    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"],
+    "images": [
+      {
+        "path": "ValAuto/login.png",
+        "desc": "Page login"
+      },
+      {
+        "path": "ValAuto/register.png",
+        "desc": "Page d'inscription"
+      },
+      {
+        "path": "ValAuto/accueil.png",
+        "desc": "Page d'accueil"
+      },
+      {
+        "path": "ValAuto/formations.png",
+        "desc": "Page des forfaits"
+      },
+      {
+        "path": "ValAuto/a-propos.png",
+        "desc": "Page a propos"
+      },
+      {
+        "path": "ValAuto/faq.png",
+        "desc": "Page FAQ"
+      },
+      {
+        "path": "ValAuto/dashboard-admin.png",
+        "desc": "Page dashboard admin"
+      },
+      {
+        "path": "ValAuto/dashboard-moniteur.png",
+        "desc": "Page dashboard moniteur"
+      },
+      {
+        "path": "ValAuto/dashboard-eleve.png",
+        "desc": "Page dashboard élève"
+      }
+    ]
   },
   {
     "id": "rfeas23",
@@ -63,7 +101,37 @@
         "nomTechno": ["Figma"]
       }
     ],
-    "competencesAcquises": ["Première utilisation de Node JS", "Installation de différentes librairies", "Connexion à une base de données MYSQL avec JAVASCRIPT grace à Express My-Connection", "Afficher les données récupérer depuis la BDD avec EJS", "Afficher des messages flash avec Express-Flash"]
+    "competencesAcquises": ["Première utilisation de Node JS", "Installation de différentes librairies", "Connexion à une base de données MYSQL avec JAVASCRIPT grace à Express My-Connection", "Afficher les données récupérer depuis la BDD avec EJS", "Afficher des messages flash avec Express-Flash"],
+    "images": [
+      {
+        "path": "bank-dashboard/login.png",
+        "desc": "Page login "
+      },
+      {
+        "path": "bank-dashboard/index.png",
+        "desc": "Page index (dark mode)"
+      },
+      {
+        "path": "bank-dashboard/index-white.png",
+        "desc": "Page index (white mode) "
+      },
+      {
+        "path": "bank-dashboard/all-transactions.png",
+        "desc": "Page pour visionner toutes les transactions"
+      },
+      {
+        "path": "bank-dashboard/a-venir.png",
+        "desc": "Page pour visionner les transactions à venir "
+      },
+      {
+        "path": "bank-dashboard/add-revenu.png",
+        "desc": "Modal pour ajouter un revenu"
+      },
+      {
+        "path": "bank-dashboard/add-depense.png",
+        "desc": "Modal pour ajouter une dépense"
+      }
+    ]
   },
   {
     "id": "dqsdqsd",
@@ -97,7 +165,13 @@
         "nomTechno": ["Redirection de ports"]
       }
     ],
-    "competencesAcquises": ["Meilleure compréhension et utilisation du terminal sous Ubuntu", "Installation d'un nom de domaine sous apache avec certificat SSL (https)", "Meilleure compréhension des ports en réseau", "Mise en place de 'Virtual Host' dans Apache pour avoir plusieurs sites sur un serveur web", "Installation d'un firewall avec Iptables", "Connexion à distance par clés avec le protocole SSH", "Mise en place de Fail To Ban qui ban une adresse ip temporairement après un certain nombre d'échecs de connexion", "Première utilisation de Docker"]
+    "competencesAcquises": ["Meilleure compréhension et utilisation du terminal sous Ubuntu", "Installation d'un nom de domaine sous apache avec certificat SSL (https)", "Meilleure compréhension des ports en réseau", "Mise en place de 'Virtual Host' dans Apache pour avoir plusieurs sites sur un serveur web", "Installation d'un firewall avec Iptables", "Connexion à distance par clés avec le protocole SSH", "Mise en place de Fail To Ban qui ban une adresse ip temporairement après un certain nombre d'échecs de connexion", "Première utilisation de Docker"],
+    "images": [
+      {
+        "path": "vide.png",
+        "desc": "Pas d'images disponibles"
+      }
+    ]
   },
   {
     "id": "4e5f6z4",
@@ -128,7 +202,37 @@
         "nomTechno": ["Figma"]
       }
     ],
-    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"]
+    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"],
+    "images": [
+      {
+        "path": "Garage2023/home-admin.png",
+        "desc": "Page accueil admin"
+      },
+      {
+        "path": "Garage2023/clients-admin.png",
+        "desc": "Page admin gestion des clients"
+      },
+      {
+        "path": "Garage2023/vehicules-admin.png",
+        "desc": "Page admin gestion des véhicules"
+      },
+      {
+        "path": "Garage2023/techniciens-admin.png",
+        "desc": "Page admin gestion des techniciens"
+      },
+      {
+        "path": "Garage2023/intervention-admin.png",
+        "desc": "Page admin gestion des interventions"
+      },
+      {
+        "path": "Garage2023/user.png",
+        "desc": "Page user véhicule(s)"
+      },
+      {
+        "path": "Garage2023/login-garage.png",
+        "desc": "Page login"
+      }
+    ]
   },
 
   {
@@ -155,7 +259,25 @@
         "nomTechno": ["Figma"]
       }
     ],
-    "competencesAcquises": ["Planifier ses missions et les documenter avec jira", "Utilisation du cms wix version EditorX", "Utilisation du JQUERY pour des fonctions sur l'éditeur de code 'Velo' propre a Wix", "Réaliser une maquette détaillée d'un site d'agence de voyages"]
+    "competencesAcquises": ["Planifier ses missions et les documenter avec jira", "Utilisation du cms wix version EditorX", "Utilisation du JQUERY pour des fonctions sur l'éditeur de code 'Velo' propre a Wix", "Réaliser une maquette détaillée d'un site d'agence de voyages"],
+    "images": [
+      {
+        "path": "Tchilee/accueil.png",
+        "desc": "Page d'accueil"
+      },
+      {
+        "path": "Tchilee/amerique.png",
+        "desc": "Page continent"
+      },
+      {
+        "path": "Tchilee/canada.png",
+        "desc": "Page pays"
+      },
+      {
+        "path": "Tchilee/quebec.png",
+        "desc": "Page ville"
+      }
+    ]
   },
   {
     "id": "dasq45",
@@ -173,7 +295,21 @@
         "nomTechno": ["Jira"]
       }
     ],
-    "competencesAcquises": ["Utilisation de Bubble pour créer des applications web", "Définir ses missions et les documenter avec Jira et OneNote"]
+    "competencesAcquises": ["Utilisation de Bubble pour créer des applications web", "Définir ses missions et les documenter avec Jira et OneNote"],
+    "images": [
+      {
+        "path": "SkillTouch/index.png",
+        "desc": "Page index (où les profils apparraissent)"
+      },
+      {
+        "path": "SkillTouch/profile.png",
+        "desc": "Page profile"
+      },
+      {
+        "path": "SkillTouch/messages.png",
+        "desc": "Page discussions créees par les matchs"
+      }
+    ]
   },
   {
     "id": "dsq123",
@@ -203,6 +339,32 @@
         "nomTechno": ["Figma"]
       }
     ],
-    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe)", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"]
+    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe)", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"],
+    "images": [
+      {
+        "path": "Scolarite/home-admin.png",
+        "desc": "Page home avec une vue sur les informations essentielles"
+      },
+      {
+        "path": "Scolarite/classes-admin.png",
+        "desc": "Page admin gestion des classes"
+      },
+      {
+        "path": "Scolarite/professeurs-admin.png",
+        "desc": "Page admin gestion des professeurs"
+      },
+      {
+        "path": "Scolarite/enseignements-admin.png",
+        "desc": "Page admin gestion des enseignements"
+      },
+      {
+        "path": "Scolarite/profile.png",
+        "desc": "Page profile"
+      },
+      {
+        "path": "Scolarite/classes-user.png",
+        "desc": "Page user visionnage des classes"
+      }
+    ]
   }
 ]

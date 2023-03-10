@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { useEffect } from "react"
 import Header from "../utils/HeadearWrapper"
 import { createPopper } from "@popperjs/core"
+import Footer from "../components/Footer"
 
 import htmlImg from "../assets/html.png"
 import cssImg from "../assets/css.png"
@@ -304,6 +305,7 @@ function APropos() {
           <div id="arrow" data-popper-arrow></div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

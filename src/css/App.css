@@ -56,6 +56,26 @@ nav ul {
   transition: all 2s linear;
 }
 
+/*Carousel*/
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: white;
+  font-weight: 500 !important;
+}
+
 /**/
 .choice-active {
   background-color: #26724d !important;

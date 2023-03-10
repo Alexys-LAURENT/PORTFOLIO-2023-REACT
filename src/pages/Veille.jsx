@@ -1,5 +1,6 @@
 import "../css/Veille.css"
 import Header from "../utils/HeadearWrapper"
+import Footer from "../components/Footer"
 import styled from "styled-components"
 
 import { useState } from "react"
@@ -70,6 +71,7 @@ function Veille({ setIdVeilleModal }) {
       <VeillesWrapper data-aos="fade-down" data-aos-duration="1500" id="VeillesWrapper" className="VeillesWrapper">
         {veilles.map(({ id, categorie, titreMin, contents, sources }) => (!categorieVeilleDisplayed || categorieVeilleDisplayed === categorie ? <CardVeille key={id} id={id} titreMin={titreMin} contents={contents} setIdVeilleModal={setIdVeilleModal}></CardVeille> : null))}
       </VeillesWrapper>
+      <Footer />
     </div>
   )
 }

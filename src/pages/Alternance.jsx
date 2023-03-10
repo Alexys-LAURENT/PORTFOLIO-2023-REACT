@@ -2,6 +2,7 @@ import "../css/Alternance.css"
 import styled from "styled-components"
 
 import Header from "../utils/HeadearWrapper"
+import Footer from "../components/Footer"
 
 import Cd2riImg from "../assets/cd2ri.png"
 import TchileeWhiteImg from "../assets/tchilee-white.png"
@@ -58,6 +59,7 @@ function Alternance() {
           <p>Tchilee propose de nombreuses destinations accompagnées de plusieurs offres qui constitues des parcours différents, accompagnés et personnalisables !</p>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

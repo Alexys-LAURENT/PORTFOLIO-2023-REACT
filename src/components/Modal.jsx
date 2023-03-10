@@ -1,5 +1,6 @@
 import projets from "../data/projets"
 import styled from "styled-components"
+import Carrousel from "./Carrousel"
 
 import { useEffect } from "react"
 
@@ -164,6 +165,9 @@ function Modal({ id }) {
               {leProjet.competencesAcquises.map((competence) => (
                 <Competence key={`${leProjet.competencesAcquises.indexOf(competence)} - ${competence.substring(0, 10)}`}>{competence}</Competence>
               ))}
+            </Section>
+            <Section id="images" className="section">
+              <Carrousel id={id} />
             </Section>
           </div>
         </div>

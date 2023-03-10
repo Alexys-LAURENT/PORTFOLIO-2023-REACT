@@ -5,6 +5,7 @@ import projets from "../data/projets"
 import certifs from "../data/certifs.json"
 
 import Header from "../utils/HeadearWrapper"
+import Footer from "../components/Footer"
 import Card from "../components/Card"
 
 const Button = styled.a`
@@ -52,7 +53,6 @@ const CertifWrapper = styled.div`
   align-items: center;
   gap: 20px;
   margin-top: 100px;
-  margin-bottom: 100px;
 
   h3 {
     margin: 0 !important;
@@ -139,6 +139,7 @@ function Projets({ setIdProjetModal }) {
           </Certif>
         ))}
       </CertifWrapper>
+      <Footer />
     </div>
   )
 }
