@@ -25,6 +25,10 @@ const ProjetsWrapper = styled.div`
   grid-column-gap: 40px;
   grid-row-gap: 25px;
   width: 90%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const FilterDiv = styled.div`

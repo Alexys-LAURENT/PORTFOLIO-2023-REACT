@@ -49,6 +49,16 @@ const ContactDiv = styled.a`
     color: white;
     font-size: 2rem;
   }
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      width: 30px;
+    }
+  }
 `
 
 const MailDiv = styled.div`
@@ -66,6 +76,16 @@ const MailDiv = styled.div`
     color: white;
     font-size: 1.2rem;
   }
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 0.8rem;
+    }
+
+    img {
+      width: 30px;
+    }
+  }
 `
 
 function Contact() {
@@ -81,7 +101,7 @@ function Contact() {
         </div>
       </Header>
       <ContactWrapper>
-        <ContactsContainer id="ContactsContainer" data-aos="fade-down" data-aos-duration="1500">
+        <ContactsContainer id="ContactsContainer">
           <MailDiv href="/" target="_blank">
             <img src={MailImg} alt="Github" width={50} />
             <p>alexyslaurent.442@gmail.com</p>

@@ -10,6 +10,16 @@ function Navbar() {
     setTextSize(pageTitle.length)
   }, [pageTitle])
 
+  useEffect(() => {
+    const navLinks = document.querySelectorAll(".nav-link")
+    //when navlink is clicked, click on #navbar-toggler to close the navbar
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        document.querySelector("#navbar-toggler").click()
+      })
+    })
+  }, [])
+
   const TextWritting = styled.div`
     width: ${(props) => props.size}ch;
     height: 1.9ch;
@@ -50,7 +60,7 @@ function Navbar() {
         <TextWritting size={textSize}>
           {"//"} {pageTitle}
         </TextWritting>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" id="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon aaa"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
