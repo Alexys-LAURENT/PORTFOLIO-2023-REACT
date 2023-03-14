@@ -261,7 +261,7 @@ function APropos() {
         </div>
       </div>
       <div data-aos="fade-down" data-aos-duration="1500" className="experienceContainer">
-        <h3>Mes exprériences</h3>
+        <h3>Mes expériences</h3>
         <Timeline>
           <TimelineItem id="timeLineItem1" aria-describedby="tooltip" ordre={1}></TimelineItem>
           <TimelineItem id="timeLineItem2" aria-describedby="tooltip" ordre={2}></TimelineItem>

@@ -16,10 +16,10 @@ const FooterWrapper = styled.footer`
 function Footer() {
   return (
     <FooterWrapper>
-      <a href="/">
+      <a href="https://github.com/Alexys-LAURENT" target="_blank" rel="noreferrer">
         <img src={GithubImg} width={30} alt="github" />
       </a>
-      <a href="/">
+      <a href="https://www.linkedin.com/in/alexys-laurent-363210231/" target="_blank" rel="noreferrer">
         <img src={LinkedinImg} width={30} alt="github" />
       </a>
     </FooterWrapper>
