@@ -192,7 +192,7 @@ function APropos() {
 
       <div data-aos="fade-down" data-aos-duration="1500" className="description-container" id="description-container">
         <div className="description-text">
-          <p>Je m’appelle Alexys LAURENT, j’ai 19 ans et je suis passionné d’informatique, du développement web, des mangas/animes et des sneakers !Actuellement en deuxième année de BTS SIO à l’école IRIS à Paris je suis des études pour devenir développeur web</p>
+          <p>Je m’appelle Alexys LAURENT, j’ai 19 ans et je suis passionné d’informatique, du développement web, des mangas/animes et des sneakers ! Actuellement en deuxième année de BTS SIO à l’école IRIS à Paris je suis des études pour devenir développeur web</p>
         </div>
         <Button href="/docs/CV-Alexys-LAURENT.pdf" target="_blank" cv={true}>
           TÉLÉCHARGER MON CV

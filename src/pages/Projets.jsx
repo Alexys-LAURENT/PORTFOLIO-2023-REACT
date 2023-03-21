@@ -33,7 +33,8 @@ const ProjetsWrapper = styled.div`
 
 const FilterDiv = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   width: 90%;
   margin-bottom: 20px;
   select {
@@ -47,6 +48,11 @@ const FilterDiv = styled.div`
 
   option {
     background-color: #1a1e23 !important;
+  }
+
+  a {
+    color: #fff;
+    text-underline-offset: 2px;
   }
 `
 
@@ -120,6 +126,9 @@ function Projets({ setIdProjetModal }) {
         </div>
       </Header>
       <FilterDiv data-aos="fade-down" data-aos-duration="1500">
+        <a href="./docs/Tableau de synthèse - Alexys LAURENT.pdf" target="_blank">
+          Mon tableau de synthèse
+        </a>
         <select name="" id="" onChange={(e) => setCategorieDisplayed(e.target.value)}>
           <option value="" selected>
             Tous
