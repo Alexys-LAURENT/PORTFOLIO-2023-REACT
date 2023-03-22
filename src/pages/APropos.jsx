@@ -301,7 +301,7 @@ function APropos() {
 
         <div id="tooltip6" className="Tooltip" role="tooltip">
           <h1>Sept 2022</h1>
-          <p>Début de mon alternance au sein de l'association CD2R</p>
+          <p>Début de mon alternance au sein de l'association CD2RI</p>
           <div id="arrow" data-popper-arrow></div>
         </div>
       </div>
