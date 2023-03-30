@@ -2,7 +2,7 @@
   {
     "id": "jkoqsp",
     "categorie": "scolaire",
-    "titre": "PPE Auto-école",
+    "titre": "Val'auto - Auto-école",
     "description": "Avec mon groupe scolaire composé de Louis Lamouche, Valentio Pinto et moi-même nous sommes actuellement en train de travailler sur un site d'auto-école afin de le présenter le jour de notre épreuve de BTS. Ce projet à pour but de réaliser la vitrine d'une auto-école ainsi qu'une interface utilisateur pour ceux ayant un forfait que l'auto-école. Grâce à cette interface l'utilisateur pourra consulter son forfait, ses heures effectués, son agenda avec ses prochaines heures de conduite, la possibilité de demander ou annuler des heures et avoir accès à un mini code de la route afin de s'entrainer.    Le site disposera aussi d'une interface moniteur ou il pourra accepter ou non les demandes de ses élèves ainsi qu'accéder à son agenda. Pour finir il y aura une interface Admin permettant d'insérer ou supprimer un élève et un moniteur",
     "stacks": ["Html", "Css", "Javascript", "Php", "Mysql"],
     "Github": "https://github.com/Alexys-LAURENT/PPE-Auto-Ecole",
@@ -202,7 +202,7 @@
         "nomTechno": ["Figma"]
       }
     ],
-    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"],
+    "competencesAcquises": ["Travail en équipe", "Git (Pour le travail en équipe)", "Trello et Gantt (Pour la planification et distribution des taches)", "Meilleur compréhension de l'architecture MVC", "Utilisation de PDO (pour une connexion sécurisée à la BDD)"],
     "images": [
       {
         "path": "Garage2023/home-admin.png",
