@@ -8,7 +8,7 @@ function Carrousel({ id }) {
       <div class="carousel-inner">
         <div class="carousel-item active">
           <a href={"/images/" + leProjet.images[0].path} target="_blank" rel="noreferrer">
-            <img src={"/images/" + leProjet.images[0].path} class="d-block w-100" alt="..."></img>
+            <img src={"./images/" + leProjet.images[0].path} class="d-block w-100" alt="..."></img>
             <div class="carousel-caption d-none d-md-block">
               <h5>{leProjet.images[0].desc}</h5>
               <p>Cliquez pour consulter</p>
@@ -20,7 +20,7 @@ function Carrousel({ id }) {
             index > 0 && (
               <div class="carousel-item">
                 <a href={"/images/" + image.path} target="_blank" rel="noreferrer">
-                  <img src={"/images/" + image.path} class="d-block w-100" alt="..."></img>
+                  <img src={"./images/" + image.path} class="d-block w-100" alt="..."></img>
                   <div class="carousel-caption d-none d-md-block">
                     <h5>{image.desc}</h5>
                     <p>Cliquez pour consulter</p>

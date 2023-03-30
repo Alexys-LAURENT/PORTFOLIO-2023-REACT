@@ -44,7 +44,7 @@ function ModalVeille({ id }) {
                   <p>{content.texte} </p>
                 ) : (
                   <ImgCenter>
-                    <img src={"/images/" + content.src} width={"80%"} alt={laVeille.titreMin + " image"} />
+                    <img src={"./images/" + content.src} width={"80%"} alt={laVeille.titreMin + " image"} />
                   </ImgCenter>
                 )
               )}

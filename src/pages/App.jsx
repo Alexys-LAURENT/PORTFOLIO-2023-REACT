@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="max-content mt-2">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route path="/" element={<APropos />} />
