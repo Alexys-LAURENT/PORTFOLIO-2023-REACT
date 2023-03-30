@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e72036c.css",
+    "main.js": "/static/js/main.cb59f611.js",
+    "static/media/cd2ri.png": "/static/media/cd2ri.464c2fae80d7f5fbc689.png",
+    "static/media/Linkedin.png": "/static/media/Linkedin.38dec86db3dd63436a06.png",
+    "static/media/tchilee-white.png": "/static/media/tchilee-white.0aaa39e16d721e0c52b6.png",
+    "static/media/Github.png": "/static/media/Github.987334e9f782cc505f25.png",
+    "index.html": "/index.html",
+    "main.3e72036c.css.map": "/static/css/main.3e72036c.css.map",
+    "main.cb59f611.js.map": "/static/js/main.cb59f611.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e72036c.css",
+    "static/js/main.cb59f611.js"
+  ]
+}
